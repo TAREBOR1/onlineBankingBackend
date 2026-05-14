@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const validator = require("validator");
 
 const { createToken } = require("../utils/jwt");
-const User = require("../models/User");
+const User = require("../models/user");
 const Account = require("../models/account");
 const { createNotification } = require("./notification");
 
