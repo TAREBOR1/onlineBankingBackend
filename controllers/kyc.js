@@ -1,5 +1,5 @@
 const KYC = require("../models/kyc");
-const User = require("../models/User");
+const User = require("../models/user");
 const { createNotification } = require("./notification");
 
 
